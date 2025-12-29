@@ -1,13 +1,13 @@
 {
   "name": "noco-ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "author": "Not Gustave <me@notgustave.com>",
   "license": "MIT",
   "homepage": "https://noco-ui.notgustave.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/notgustave/noco-ui"
+    "url": "git+https://github.com/notgustave/noco-ui.git"
   },
   "keywords": [
     "svelte",
