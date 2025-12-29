@@ -1,5 +1,8 @@
 <script lang="ts">
+	import { title } from '$internal/state';
 	import { Button, Container, GridPattern } from '$lib/components';
+
+	title.reset();
 </script>
 
 <GridPattern class="absolute top-0 left-1/2 -z-10 -mt-36 size-250 -translate-x-1/2 opacity-60" />
