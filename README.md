@@ -20,14 +20,14 @@ Update `src/routes/+layout.svelte` file:
 
 ```svelte
 <script lang="ts">
-	import { Provider } from 'noco-ui/components';
-	import './layout.css';
+  import { Provider } from 'noco-ui/components';
+  import './layout.css';
 
-	let { children } = $props();
+  let { children } = $props();
 </script>
 
 <Provider>
-	{@render children()}
+  {@render children()}
 </Provider>
 ```
 

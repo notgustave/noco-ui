@@ -1,21 +1,21 @@
 <script lang="ts">
-	import { title as t } from '$internal/state';
+  import { title as t } from '$internal/state';
 
-	let { children, title, description } = $props();
+  let { children, title, description } = $props();
 
-	if (title) {
-		t.set(title);
-	}
+  if (title) {
+    t.set(title);
+  }
 </script>
 
 <div
-	class="mx-auto prose max-w-3xl py-12 prose-slate prose-headings:font-semibold prose-h1:mb-6 prose-pre:border prose-pre:border-border/50 prose-pre:bg-accent/50!"
+  class="mx-auto prose max-w-3xl py-12 prose-slate prose-headings:font-semibold prose-h1:mb-6 prose-pre:border prose-pre:border-border/50 prose-pre:bg-accent/50!"
 >
-	<h1>{title}</h1>
+  <h1>{title}</h1>
 
-	{#if description}
-		<p>{description}</p>
-	{/if}
+  {#if description}
+    <p>{description}</p>
+  {/if}
 
-	{@render children?.()}
+  {@render children?.()}
 </div>
