@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { Header } from '$internal/components';
 	import { title } from '$internal/state';
 	import favicon from '$lib/assets/favicon.svg';
 	import { Provider } from '$lib/components';
@@ -13,5 +14,6 @@
 </svelte:head>
 
 <Provider>
+	<Header />
 	{@render children()}
 </Provider>
