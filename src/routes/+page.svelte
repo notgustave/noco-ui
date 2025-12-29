@@ -19,7 +19,7 @@
 			worrying about the UI.
 		</p>
 		<div class="flex gap-3">
-			<Button href="/" size="lg">Get started</Button>
+			<Button href="/docs/getting-started" size="lg">Get started</Button>
 			<Button href="/" size="lg" variant="outline">Browse components</Button>
 		</div>
 	</div>
