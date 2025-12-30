@@ -1,5 +1,27 @@
 ---
 title: Container
+description: A wrapper that keeps your content aligned and neatly spaced.
 ---
 
-This is Container component documentation.
+<script lang="ts">
+  import { Preview } from '$internal/components';
+  import Container from './container.svelte';
+</script>
+
+<Preview>
+<Container>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+  nisi ut aliquip ex ea commodo consequat.
+</Container>
+</Preview>
+
+```svelte
+<Container>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+  nisi ut aliquip ex ea commodo consequat.
+</Container>
+```

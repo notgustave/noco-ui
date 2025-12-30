@@ -1,5 +1,35 @@
 ---
 title: Button
+description: Flexible, accessible, and styled action trigger you can use for anything.
 ---
 
-This is Button component documentation.
+<script lang="ts">
+  import { Preview } from '$internal/components';
+  import { Button } from './button';
+</script>
+
+<Preview>
+<div class="flex gap-5">
+  <Button size="sm">Button sm</Button>
+  <Button>Button md</Button>
+  <Button size="lg">Button lg</Button>
+</div>
+<div class="flex gap-5">
+  <Button size="sm" variant="outline">Button sm</Button>
+  <Button variant="outline">Button md</Button>
+  <Button size="lg" variant="outline">Button lg</Button>
+</div>
+</Preview>
+
+```svelte
+<div class="flex gap-5">
+  <Button size="sm">Button sm</Button>
+  <Button>Button md</Button>
+  <Button size="lg">Button lg</Button>
+</div>
+<div class="flex gap-5">
+  <Button size="sm" variant="outline">Button sm</Button>
+  <Button variant="outline">Button md</Button>
+  <Button size="lg" variant="outline">Button lg</Button>
+</div>
+```
