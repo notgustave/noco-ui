@@ -1,12 +1,9 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "noco-ui",
-  "main": ".svelte-kit/cloudflare/_worker.js",
   "compatibility_date": "2025-12-28",
-  "compatibility_flags": ["nodejs_als"],
   "assets": {
-    "binding": "ASSETS",
-    "directory": ".svelte-kit/cloudflare"
+    "directory": "./build"
   },
   "workers_dev": false,
   "routes": [
