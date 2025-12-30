@@ -1,0 +1,20 @@
+---
+title: Components
+description: A collection of building blocks that help you move fast and keep things consistent.
+---
+
+<script lang="ts">
+  import type { PageProps } from './$types.js';
+
+  export let data: PageProps;
+</script>
+
+<div class="grid grid-cols-3 gap-8 mt-6">
+  {#each data.items as { name, slug }}
+    <p>
+      <a href="/docs/components/{slug}" class="text-lg font-semibold no-underline">
+        {name}
+      </a>
+    </p>
+  {/each}
+</div>

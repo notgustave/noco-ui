@@ -20,7 +20,7 @@
           <NavigationMenuLink href="/docs/getting-started">Getting started</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/">Components</NavigationMenuLink>
+          <NavigationMenuLink href="/docs/components">Components</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink href="/">Examples</NavigationMenuLink>

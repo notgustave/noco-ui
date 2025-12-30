@@ -20,7 +20,7 @@
     </p>
     <div class="flex gap-3">
       <Button href="/docs/getting-started" size="lg">Get started</Button>
-      <Button href="/" size="lg" variant="outline">Browse components</Button>
+      <Button href="/docs/components" size="lg" variant="outline">Browse components</Button>
     </div>
   </div>
 </Container>
