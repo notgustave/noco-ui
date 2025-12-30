@@ -15,5 +15,18 @@
 
 <Provider>
   <Header />
-  {@render children()}
+  <div class="flex-1">
+    {@render children()}
+  </div>
+
+  <p class="px-6 pt-10 pb-8 text-center text-base text-muted-foreground">
+    An open source project by
+    <a
+      href="https://github.com/notgustave"
+      class="font-semibold underline underline-offset-2 hover:text-primary"
+      target="_blank"
+    >
+      notgustave
+    </a>
+  </p>
 </Provider>

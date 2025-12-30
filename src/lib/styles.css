@@ -115,7 +115,22 @@
   * {
     @apply border-border outline-ring/50;
   }
+
+  html,
+  body,
+  body > div {
+    @apply h-full;
+  }
+
   body {
     @apply bg-background text-foreground;
   }
+
+  body > div {
+    @apply flex! flex-col;
+  }
+}
+
+* {
+  font-optical-sizing: auto;
 }
