@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
-import type { PageLoad } from './$types.js';
 import type { SvelteComponent } from 'svelte';
+import type { PageLoad } from './$types.js';
 
 export const load: PageLoad = async ({ params }) => {
   const imports = import.meta.glob<{ default: SvelteComponent }>(

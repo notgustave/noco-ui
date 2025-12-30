@@ -7,12 +7,10 @@ type Item = {
 };
 
 export const load: PageLoad = async () => {
-  const paths: Record<string, () => Promise<unknown>> = import.meta.glob(
-    '/src/lib/components/**/*.doc.svx'
-  );
+  const imports = import.meta.glob('/src/lib/components/**/*.doc.svx');
   const items: Item[] = [];
 
-  for (const path in paths) {
+  for (const path in imports) {
     const parts = path.split('/');
     const name = parts[parts.length - 1].replace('.doc.svx', '');
     const slug = path.replace('/src/lib/components/', '').replace('.doc.svx', '');
@@ -20,5 +18,7 @@ export const load: PageLoad = async () => {
     items.push({ name: sentenceCase(name), slug });
   }
 
-  return { items: items.sort((a, b) => a.name.localeCompare(b.name)) };
+  return {
+    items: items.sort((a, b) => a.name.localeCompare(b.name))
+  };
 };
