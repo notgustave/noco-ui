@@ -1,0 +1,20 @@
+---
+title: Examples
+description: Ready-to-use demos of each component in real-world scenarios.
+---
+
+<script lang="ts">
+  import type { PageData } from './$types';
+
+  export let data: PageData;
+</script>
+
+<div class="mt-6 grid grid-cols-3 gap-8">
+  {#each data.items as { name, slug }}
+    <p>
+      <a href="/docs/examples/{slug}" class="text-lg font-semibold no-underline">
+        {name}
+      </a>
+    </p>
+  {/each}
+</div>

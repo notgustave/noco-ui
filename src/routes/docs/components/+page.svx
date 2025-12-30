@@ -4,7 +4,7 @@ description: A collection of building blocks that help you move fast and keep th
 ---
 
 <script lang="ts">
-  import type { PageProps } from './$types.js';
+  import type { PageProps } from './$types';
 
   export let data: PageProps;
 </script>

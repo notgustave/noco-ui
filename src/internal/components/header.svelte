@@ -23,7 +23,7 @@
           <NavigationMenuLink href="/docs/components">Components</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/">Examples</NavigationMenuLink>
+          <NavigationMenuLink href="/docs/examples">Examples</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink href="https://github.com/notgustave/noco-ui" target="_blank">
@@ -36,4 +36,4 @@
   </Container>
 </div>
 
-<div class="h-16"></div>
+<div class="h-16 shrink-0"></div>

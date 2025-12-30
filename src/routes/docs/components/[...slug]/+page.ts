@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
 import type { SvelteComponent } from 'svelte';
-import type { PageLoad } from './$types.js';
+import type { PageLoad } from './$types';
 
 export const load: PageLoad = async ({ params }) => {
   const slug = params.slug.replace(/\/$/, '');
