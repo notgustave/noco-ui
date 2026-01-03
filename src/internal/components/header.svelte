@@ -9,7 +9,7 @@
   import ExternalLinkIcon from '@lucide/svelte/icons/square-arrow-out-up-right';
 </script>
 
-<div class="fixed inset-x-0 top-0 z-10 border-b border-accent bg-background">
+<div class="fixed inset-x-0 top-0 z-10 border-b border-border bg-background">
   <Container class="flex h-16 max-w-6xl items-center">
     <a href="/" class="mr-auto">
       <span class="text-xl font-semibold">Noco UI</span>

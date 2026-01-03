@@ -5,7 +5,7 @@
   title.reset();
 </script>
 
-<GridPattern class="absolute top-0 left-1/2 -z-10 -mt-36 size-250 -translate-x-1/2 opacity-60" />
+<GridPattern class="absolute top-0 left-1/2 -z-10 -mt-36 size-250 -translate-x-1/2 opacity-50" />
 
 <Container>
   <div class="flex flex-col items-center justify-center py-48 text-center">

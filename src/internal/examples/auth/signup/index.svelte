@@ -3,7 +3,9 @@
   import Form from './form.svelte';
 </script>
 
-<div class="flex min-h-svh flex-col items-center justify-center gap-6 bg-muted p-6 md:p-10">
+<div
+  class="flex min-h-svh flex-col items-center justify-center gap-6 bg-muted p-6 md:p-10 dark:bg-background"
+>
   <div class="flex w-full max-w-md flex-col gap-7">
     <a href="/" class="text-center text-xl font-semibold">
       <span>My App</span>

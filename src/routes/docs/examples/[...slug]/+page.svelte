@@ -10,10 +10,12 @@
 
   let { data }: { data: PageData } = $props();
 
-  title.set(`${data.name} • Examples`);
-
   let displayTabs = $state(false);
   let tabIndex = $state(0);
+
+  $effect(() => {
+    title.set(`${data.name} • Examples`);
+  });
 </script>
 
 {#if tabIndex === 0}

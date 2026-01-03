@@ -16,8 +16,8 @@ const mdsvexOptions = {
         highlighter.codeToHtml(code, {
           lang,
           themes: {
-            light: 'github-light',
-            dark: 'github-dark'
+            light: 'slack-ochin',
+            dark: 'slack-dark'
           },
           transformers: [addCopyButton()]
         })

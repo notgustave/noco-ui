@@ -21,8 +21,8 @@ export const load: LayoutServerLoad = async ({ params }) => {
         content: highlighter.codeToHtml(content, {
           lang: 'svelte',
           themes: {
-            light: 'github-light',
-            dark: 'github-dark'
+            light: 'slack-ochin',
+            dark: 'slack-dark'
           },
           transformers: [addCopyButton()]
         })

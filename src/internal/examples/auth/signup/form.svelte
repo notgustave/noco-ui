@@ -44,7 +44,10 @@
         <Field>
           <div class="flex items-center">
             <FieldLabel for="password">Password</FieldLabel>
-            <a href="/" class="ms-auto text-sm underline-offset-4 hover:underline">
+            <a
+              href="/"
+              class="ms-auto text-sm text-muted-foreground underline-offset-4 hover:underline"
+            >
               Forgot your password?
             </a>
           </div>

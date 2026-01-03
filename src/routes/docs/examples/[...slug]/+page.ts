@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
 import { sentenceCase } from 'change-case';
-import { SvelteComponent } from 'svelte';
+import type { SvelteComponent } from 'svelte';
 import type { PageLoad } from './$types.js';
 
 export const load: PageLoad = async ({ parent, params }) => {
