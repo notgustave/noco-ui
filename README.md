@@ -1,5 +1,9 @@
 # Noco UI
 
+Clean component library for Svelte.
+
+## Getting started
+
 This library requires that you have a [SvelteKit](https://svelte.dev/docs/kit/introduction) project with [Tailwind CSS](https://tailwindcss.com/) set up.
 If you haven't done so yet, please refer to the official documentation to begin.
 
