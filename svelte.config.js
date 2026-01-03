@@ -15,7 +15,10 @@ const mdsvexOptions = {
       const html = escapeSvelte(
         highlighter.codeToHtml(code, {
           lang,
-          theme: 'github-light',
+          themes: {
+            light: 'github-light',
+            dark: 'github-dark'
+          },
           transformers: [addCopyButton()]
         })
       );

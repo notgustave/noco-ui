@@ -9,7 +9,7 @@
 </script>
 
 <div
-  class="mx-auto prose max-w-3xl py-12 prose-slate prose-headings:font-semibold prose-h1:mb-6 prose-pre:border prose-pre:border-border/50 prose-pre:bg-accent/50!"
+  class="mx-auto prose max-w-3xl py-12 prose-slate dark:prose-invert prose-headings:font-semibold prose-h1:mb-6 prose-pre:border prose-pre:border-border/50 prose-pre:bg-accent/50!"
 >
   <h1>{title}</h1>
 

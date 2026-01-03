@@ -2,7 +2,7 @@ import { createHighlighterCore } from 'shiki/core';
 import { createOnigurumaEngine } from 'shiki/engine/oniguruma';
 
 export const highlighter = await createHighlighterCore({
-  themes: [import('@shikijs/themes/github-light')],
+  themes: [import('@shikijs/themes/github-light'), import('@shikijs/themes/github-dark')],
   langs: [
     import('@shikijs/langs/bash'),
     import('@shikijs/langs/javascript'),

@@ -20,7 +20,10 @@ export const load: LayoutServerLoad = async ({ params }) => {
         name: filePath,
         content: highlighter.codeToHtml(content, {
           lang: 'svelte',
-          theme: 'github-light',
+          themes: {
+            light: 'github-light',
+            dark: 'github-dark'
+          },
           transformers: [addCopyButton()]
         })
       });

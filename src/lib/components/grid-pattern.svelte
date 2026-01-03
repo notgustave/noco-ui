@@ -5,7 +5,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" {...props}>
   <defs>
     <pattern id="grid-soft" width="56" height="56" patternUnits="userSpaceOnUse">
-      <path d="M56 0H0V56" fill="none" stroke="#e5e7eb" stroke-width="1" />
+      <path d="M56 0H0V56" fill="none" class="stroke-muted-foreground/20" stroke-width="1" />
     </pattern>
 
     <radialGradient id="circle-fade">
