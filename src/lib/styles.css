@@ -2,6 +2,8 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@source './components';
+
 :root {
   --gray-50: oklch(0.99 0.004 235);
   --gray-100: oklch(0.97 0.005 235);
